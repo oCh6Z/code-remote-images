@@ -1,10 +1,7 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/alpine
 {
 	"name": "base-image",
 	"build": {
 		"dockerfile": "Containerfile.base.alpine",
-		// Update 'VARIANT' to pick an Alpine version: 3.12, 3.13, 3.14, 3.15
 		"args": { "VARIANT": "latest" }
 	},
 
@@ -12,7 +9,6 @@
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	// Note that some extensions may not work in Alpine Linux. See https://aka.ms/vscode-remote/linux.
 	"extensions": [],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
