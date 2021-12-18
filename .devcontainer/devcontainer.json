@@ -1,8 +1,10 @@
 {
 	"name": "base-image",
 	"build": {
-		"dockerfile": "Containerfile.base.alpine",
-		"args": { "VARIANT": "latest" }
+		// "dockerfile": "Containerfile.base.alpine",
+		// "args": { "VARIANT": "latest" }
+		"dockerfile": "Containerfile.base.debian",
+		"args": { "VARIANT": "stable-slim" }
 	},
 
 	// Set *default* container specific settings.json values on container create.
