@@ -11,7 +11,7 @@ RUN echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
     && locale-gen
 
 ARG USERNAME=vscode
-ARG USER_UID=1000
+ARG USER_UID=10001
 ARG USER_GID=$USER_UID
 
 RUN groupadd --gid $USER_GID $USERNAME \
