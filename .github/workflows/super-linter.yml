@@ -7,13 +7,11 @@ on:
       - "main"
     paths-ignore:
       - "Containerfile.*"
-      - "Dockerfile"
   pull_request:
     branches:
       - "main"
     paths-ignore:
       - "Containerfile.*"
-      - "Dockerfile"
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
