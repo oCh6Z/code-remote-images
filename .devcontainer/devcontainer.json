@@ -5,9 +5,9 @@
 		// "args": { "VARIANT": "latest" }
 		"dockerfile": "Containerfile.base.debian",
 		"args": {
-			"VARIANT": "stable-slim",
+			"USER_UID": "1000",
 			"USERNAME": "vscode",
-			"USER_UID": "1000"
+			"VARIANT": "stable-slim"
 		}
 	},
 
