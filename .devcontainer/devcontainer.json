@@ -2,11 +2,11 @@
 	"name": "base-image",
 	"build": {
 		// "dockerfile": "Containerfile.base.alpine",
-		// "args": { "VARIANT": "latest" }
 		"dockerfile": "Containerfile.base.debian",
 		"args": {
 			"USER_UID": "1000",
 			"USERNAME": "vscode",
+			// "VARIANT": "latest",
 			"VARIANT": "stable-slim"
 		}
 	},
